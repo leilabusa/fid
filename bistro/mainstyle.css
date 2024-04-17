@@ -48,15 +48,9 @@
       margin: 0;
       padding: 0;
     }
-    #info p {
-      font-style: italic;
-    }
     .price {
       font-family: Georgia, serif;
       font-style: italic;
-    }
-    p.warning, sup {
-      font-size: small;
     }
     .label {
       font-weight: bold;
