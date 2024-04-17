@@ -1,0 +1,81 @@
+
+    body {
+      background-color: #faf2e4;
+      margin: 0 10%;
+      font-family: sans-serif;
+      text-align: center;
+      background: #faf2e4 url(images/blackgoose.png) no-repeat center 100px fixed;
+      } 
+      .lugrasimo-regular, h1 {
+        text-align: center;
+        font-family: "Lugrasimo", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: uppercase;
+        border-bottom: 1px solid #57b1dc;
+        margin-top: 30px;
+      }
+        h2 {
+        color: #d20000af;
+        font-size: 1em;
+        text-align: center;
+        }
+    a {
+      text-decoration: none;
+    }
+    a:link {
+      color: rgb(186, 74, 0);
+    }
+    a:visited {
+      color: #8e3900;
+    }
+    a:focus, a:hover {
+      color: #f28500;
+      background-color: #fef7e1;
+    }
+    a:active {
+      color: #f90;
+      background-color: #fef7e1;
+    }
+    dt {
+      font-weight: bold;
+    }
+    strong {
+      font-style: italic;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    #info p {
+      font-style: italic;
+    }
+    .price {
+      font-family: Georgia, serif;
+      font-style: italic;
+    }
+    p.warning, sup {
+      font-size: small;
+    }
+    .label {
+      font-weight: bold;
+      font-variant: small-caps;
+      font-style: normal;
+    }
+    
+    h2 + p {
+      text-align: center;
+      font-style: italic;
+    }
+    footer {
+      border-top: 1px solid #57b1dc;
+      text-align: center;
+      padding-top: 1em;
+    }
+    footer img {
+      width: 40px;
+      height: 40px;
+      margin-left: .5em;
+      margin-right: .5em;
+    }

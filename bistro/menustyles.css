@@ -11,12 +11,18 @@ header {
   text-align: center;
   background: url(images/orangedotsmall.png) center top repeat-x;
   background:
-  url(images/orangedotsmall.png) left top repeat-y,
-  url(images/orangedotsmall.png) right top repeat-y,
   url(images/gooseshadow.png) 90% bottom no-repeat;
-  background-color: rgba(255, 222, 189, 0.86);
+  background-color: rgba(255, 235, 215, 0.86);
 }
-
+.lugrasimo-regular, h1 {
+  text-align: center;
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  border-bottom: 1px solid #57b1dc;
+  margin-top: 30px;
+}
 a {
   text-decoration: none;
 }
@@ -33,11 +39,6 @@ a:focus, a:hover {
 a:active {
   color: #f90;
   background-color: #fef7e1;
-}
-h1 {
-  font: bold 1.5em Georgia, serif;
-  text-shadow: .05em .05em .1em gray;
-  color: rgb(189, 95, 0);
 }
 h2 {
   font-size: 1em;
