@@ -1,0 +1,59 @@
+body, .roboto-mono-decorative {
+        background-color: #5d9ce8;
+        margin: 0 0;
+        font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    } 
+    h1, .orbitron-leilabusa {
+        text-align: center;
+        font-family: "Orbitron", sans-serif;
+        font-weight: 600;
+        font-size: 300%;
+        text-transform: uppercase;
+        color: #080077;
+        text-shadow: 0.06em 0.06em 0.11em rgb(24, 59, 255);
+        background-color: #b3cdff;
+        letter-spacing: .3em;
+        font-optical-sizing: auto;
+      font-style: normal;
+    }      
+    h2 {
+        color: #080077;
+        font-size: 1.3em;
+    }
+    h3 {
+        color: #080077;
+        font-size: 1em;
+    }
+    a {
+      text-decoration: none;
+    }
+    a:link {
+      color: rgb(2, 0, 137);
+    }
+    a:visited {
+      color: #120051f7;
+    }
+    a:focus, a:hover {
+      color: #351aff;
+      background-color: #8bb5e8;
+    }
+    a:active {
+      color: #351aff;
+      background-color: #8bb5e8;
+    }
+    ul {
+      list-style-image: url(moon.png);
+      margin-left: 30px;
+    }
+    footer {
+      text-align: left;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: .5em;
+  margin-right: .5em;
+}
