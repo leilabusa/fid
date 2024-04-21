@@ -5,6 +5,7 @@ body, .roboto-mono-decorative {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
     } 
     h1, .orbitron-leilabusa {
         text-align: center;
@@ -44,12 +45,17 @@ body, .roboto-mono-decorative {
       color: #351aff;
       background-color: #8bb5e8;
     }
+    div.parent {
+      text-align: center;
+    }
     ul {
+      list-style-position: inside;
       list-style-image: url(moon.png);
-      margin-left: 30px;
+      display: inline-block;
+      text-align: left;
     }
     footer {
-      text-align: left;
+      text-align: center;
 }
 footer img {
   width: 40px;
